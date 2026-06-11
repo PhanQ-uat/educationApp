@@ -331,7 +331,7 @@ function App() {
             <SectionHeading eyebrow="Lộ trình" title="Lộ trình học rõ ràng" text="Phụ huynh và học sinh luôn biết đang học gì, vì sao cần học phần đó và tiến bộ được đo bằng cách nào." />
             <div className="timeline">
               {learningPath.map(([title, text], index) => (
-                <article className="timeline-item" key={title}>
+                <article className="timeline-item" key={title} style={{ '--step-delay': `${index * 120}ms` }}>
                   <span className="step-number">{index + 1}</span>
                   <h3>{title}</h3>
                   <p>{text}</p>
@@ -399,7 +399,9 @@ function App() {
               </div>
             </div>
             <article className="teacher-card">
-              <div className="teacher-avatar">TT</div>
+              <div className="teacher-avatar teacher-photo">
+                <img src="/teacher/co.jpg" alt="Cô Phan Thị Thuỷ" />
+              </div>
               <h3>Cô Phan Thị Thuy Thuỷ</h3>
               <p>Giáo viên Hóa học 8-12, định hướng học chắc nền tảng, luyện đề sát mục tiêu và đồng hành bền bỉ cùng từng học sinh.</p>
               <div className="rating">
