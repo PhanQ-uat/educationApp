@@ -125,8 +125,8 @@ const schedules = [
 ];
 
 const tuition = [
-  ['Nhóm nhỏ', 'Từ 900.000đ/tháng', '2 buổi/tuần'],
-  ['Online', 'Từ 750.000đ/tháng', '2 buổi/tuần'],
+  ['Nhóm nhỏ', 'Từ 800.000đ/tháng', '2 buổi/tuần'],
+  ['Online', 'Từ 850.000đ/tháng', '2 buổi/tuần'],
   ['Luyện đề cấp tốc', 'Theo khóa', '4-8 buổi/khóa'],
 ];
 
